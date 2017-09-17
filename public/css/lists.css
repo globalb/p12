@@ -1,0 +1,195 @@
+@CHARSET "UTF-8";
+
+
+.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+	background-color:white;
+	font-size:14px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+table thead {
+	height:35px;
+	background-color:cornsilk;
+	font-size:14px;
+	color: #333;
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+}
+
+table tr{
+	height:30px;
+	border-top:1px solid #DDDDDD;
+	text-align:center;
+}
+
+
+table tr td{
+	border-left:1px solid #DDDDDD;
+	
+}
+
+table tr.actions{
+	background-color: gainsboro;
+	display:none;
+}
+
+table tr.actions td{
+	padding: 7px;
+}
+
+span.tasks_table_state_td_on {
+	 font-weight: bold !important;
+	color: #3D6611 !important;
+}
+
+span.tasks_table_state_td_off {
+	 color: #DF280A !important;
+	font-weight: bold !important;
+}
+
+.tasks_actions {
+	cursor:pointer;
+}
+
+#tasks_add_button {
+	float: left;
+}
+
+#tasks_add_form {
+	width:900px;
+	float:left;
+	margin-top:20px;
+	display:none;
+}
+
+.tasks_forms_edit {
+	width: 900px;
+	float: left;
+	display: none;
+	background-color:rgb(237, 244, 246);
+	
+}
+
+.tasks_forms .inputs{
+	width: 550px;
+}
+
+.tasks_forms .textarea-wrappers{
+	vertical-align:top;
+}
+	
+.tasks_forms .textarea-labels{ 
+	margin-top: 70px;
+	position: absolute;
+}
+
+.tasks_forms textarea{ 
+	height: 180px;
+	width: 550px;
+}
+
+.tasks_forms .labels{
+	font-size: 20px;
+}
+
+.tasks_forms .form_selects {
+	width:500px;
+	height: 30px;
+	outline-color: #4872B1;
+	outline-style: auto;
+	outline-width: 5px;
+}
+
+
+.tasks_forms .form-label-wrappers {
+	width: 300px;
+	min-width: 300px;
+	display: inline-block;
+}
+
+div.addedit_form_capts {
+	min-width: 230px;
+	display: inline-block;
+	height: 26px;
+}
+
+div.addedit_form_capts_testareas {
+	height: 40px;
+	vertical-align: middle;
+	margin-top: -50px;
+}
+
+div.addedit_form_fields_divs {
+	margin-left: 185px;
+	height: 50px;
+	background: #FFFFFF;
+	padding: 10px;
+	margin-top: -25px;
+}
+
+div.mspro_scrollbox {
+	border: 1px solid #CCCCCC;
+	width: 350px;
+	height: 120px;
+	background: #FFFFFF;
+	overflow-y: scroll;
+	margin-left: 230px;
+	margin-top: -25px;
+}
+
+
+div.mspro_scrollbox div {
+	padding: 3px;
+}
+
+div.mspro_scrollbox div.even {
+	background: #FFFFFF;
+}
+
+div.mspro_scrollbox div.odd {
+	background: #E4EEF7;
+}
+
+
+
+.textAreaNotices {
+	color: #DE1D73;
+	margin-left: 300px;
+}
+
+.hidden {
+	visibility:hidden;
+}
+
+
+div.grabbed_product_popup_title {
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	margin-bottom: 20px;
+}
+
+span.grabbed_product_popup_number {
+	font-size: 1.2em;
+	color: #3E68A8;
+}
+
+div#overlay {
+	opacity : 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
